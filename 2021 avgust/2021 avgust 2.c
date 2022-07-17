@@ -30,7 +30,6 @@ int main(){
             continue;
         }
         else if(zagradeFlag){
-            //printf("%c %d %d \n", str[i], strchr(str + zagradeIndex, str[i]) - str - zagradeIndex, i - zagradeIndex);
             if(strchr(str + zagradeIndex, str[i])-str == i)
                 str[strIndex++] = str[i];
             else continue;
