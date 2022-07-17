@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//NE ZNAM POD TRI
+//POD TRI NIJE URADJENO
 
 char opcijeStr[] = "[0]Prekid programa \n[1]Ucitavanje podataka \n[2]Brisanje svih ocena za datum \n[3]Zakljucivanje ocena \nOcpija: ";
 
