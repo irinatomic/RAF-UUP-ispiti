@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Unos: abcdeXhz zhj bbbbXac cccXs
+Ispis: ahbzchdze zhj babcbab cscsc
+*/
+
 void modifikuj(char* str){
 
     char desno[10];
