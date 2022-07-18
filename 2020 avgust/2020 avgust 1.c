@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+/*
+n = 3
+1 2 4 5 6
+2 3 2 1 7
+1 5 6 2 0 
+3 4 1 1 1
+2 2 1 2 3
+ispis: dimenzija:4X4, gornji levi ugao: 1,0
+*/
+
 int proveriPodmatricu(int ii, int jj, int dim, int m, int mat[][m], int n){
 
     for(int i = ii; i < ii+dim; i++){
