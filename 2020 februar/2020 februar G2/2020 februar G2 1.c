@@ -2,6 +2,23 @@
 #include <stdlib.h>
 #include <limits.h>
 
+/* Ulaz:
+1 3 5 6 7 5
+2 3 4 5 1 6
+9 1 1 3 4 8
+5 6 7 8 7 9
+1 2 3 4 5 0
+3 4 1 2 6 4
+
+Izlaz:
+1 3 5 6 7 5
+5 3 4 5 1 1
+3 3 1 3 1 1
+8 8 7 8 7 7
+5 2 3 4 5 2
+3 4 1 2 6 4
+*/
+
 void ispisiMatricu(int n, int mat[][n]){
 
     for(int i = 0; i < n; i++){
