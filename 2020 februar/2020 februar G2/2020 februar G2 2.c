@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Unos: nmXabcdefg zhj acXbbbbb sXcccccc
+Ispis: abncdmefng bbabbcb ccsccscc
+*/
+
 void modifikuj(char* token){
 
     char novi[50], levaSlova[50];
