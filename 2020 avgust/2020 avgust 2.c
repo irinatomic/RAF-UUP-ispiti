@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Unos: abccghj ujh hkllm weertz
+Ispis: abccba jhgccghj hkllkh mllm weew ztreertz
+*/
+
 void proveriPreslikaj(char* token, char* novi, int* noviIndex){
 
     int preslikaj = 0;
