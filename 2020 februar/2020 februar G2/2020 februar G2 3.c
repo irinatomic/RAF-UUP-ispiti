@@ -136,7 +136,7 @@ void sortirajPoDatumu(Node* head){
 
             if(NodeI->datum->mesec == NodeJ->datum->mesec){
                 if(NodeI->datum->dan > NodeJ->datum->dan){
-                    Datum* tmpDatum = NodeI->datum; NodeI->datum = NodeJ->datum; NodeJ->datum = tmpDatum;                           //nadji funkciju za ovo sr!!!!!
+                    Datum* tmpDatum = NodeI->datum; NodeI->datum = NodeJ->datum; NodeJ->datum = tmpDatum;                           //sigurno moze jednostavnije (mozda da se zamene lokacije)
                     int tmpSat1 = NodeI->sat1; NodeI->sat1 = NodeJ->sat1; NodeJ->sat1 = tmpSat1;
                     int tmpLok1 = NodeI->lok1; NodeI->lok1 = NodeJ->lok1; NodeJ->lok1 = tmpLok1;
                     int tmpSat2 = NodeI->sat2; NodeI->sat2 = NodeJ->sat2; NodeJ->sat2 = tmpSat2;
